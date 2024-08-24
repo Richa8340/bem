@@ -1,0 +1,36 @@
+/* Block: .content 
+   Element: .content__paragraph
+   Modifiers: --large, --highlight, --muted, --centered, --bold */
+
+/* Base paragraph style */
+.content__paragraph {
+    font-family: Arial, sans-serif;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+/* Modifier for large text */
+.content__paragraph--large {
+    font-size: 1.5em;
+}
+
+/* Modifier for highlighted background */
+.content__paragraph--highlight {
+    background-color: yellow;
+    padding: 10px;
+}
+
+/* Modifier for muted text color */
+.content__paragraph--muted {
+    color: gray;
+}
+
+/* Modifier for centered text */
+.content__paragraph--centered {
+    text-align: center;
+}
+
+/* Modifier for bold text */
+.content__paragraph--bold {
+    font-weight: bold;
+}
